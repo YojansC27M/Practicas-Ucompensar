@@ -1,0 +1,14 @@
+INSTALAR SVELTE
+- Sintaxis limpia
+- No hay virtual DOM
+
+Crear proyecto: npx degit sveltejs/template notes
+Acceder a la carpte: cd notes
+Instalar dependencias: npm i
+Ejecutar proyecto: npm run dev
+
+En src crear una nueva carpeta llamada server y un archivo llamado app.js
+Ingresarmos a server y escribimos el siguiente comando: npm init -y
+Despues: npm i express - Simular un servidor
+Despues: npm i cors - Permite las conexiones al body
+Creamos un archivo que se llame: api.json
